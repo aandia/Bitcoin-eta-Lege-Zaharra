@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bitcoin-i buruzko bloga euskaraz: ikuspegi orokorra, ikasgai teknikoak, hausnarketak eta baliabideak.">
+  <meta name="keywords" content="Bitcoin, diru digitala, teknologia, euskara, ikasgaiak">
+  <title>Bitcoin eta lege zaharra</title>
+  <link rel="stylesheet" href="default.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    #wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      margin-bottom: 30px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+    }
+    header h1 {
+      margin-top: 10px;
+      font-size: 2.8em;
+      line-height: 1.2;
+    }
+    nav#menu ul {
+      display: flex;
+      gap: 15px;
+      list-style: none;
+      padding: 0;
+      margin-bottom: 30px;
+    }
+    nav#menu a {
+      text-decoration: none;
+      color: #0057a0;
+      font-weight: bold;
+    }
+    main#content {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    @media (max-width: 768px) {
+      main#content {
+        flex-direction: column;
+      }
+    }
+    aside#sidebar {
+      width: 30%;
+    }
+    section#blog {
+      width: 70%;
+    }
+    .post {
+      margin-bottom: 40px;
+    }
+    .post h2 {
+      color: #0057a0;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .post ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .post li {
+      margin-bottom: 8px;
+    }
+    .post a {
+      color: #0057a0;
+      text-decoration: none;
+    }
+    .post a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 0.9em;
+      text-align: center;
+    }
+    #logo {
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <img id="logo" src="images/btc.png" alt="Bitcoin logoa">
+      <h1><a href="#">₿itcoin eta lege zaharra</a></h1>
+    </header>
+
+    <nav id="menu">
+      <ul>
+        <li><a href="lege_zaharra.html">Lege zaharra</a></li>
+        <li><a href="ikasgai_teknikoak.html">Ikasgai Teknikoak</a></li>
+        <li><a href="hausnarketak.html">Hausnarketak</a></li>
+        <li><a href="baliabideak.html">Baliabideak</a></li>
+      </ul>
+    </nav>
+
+    <main id="content">
+      <aside id="sidebar">
+        <ul>
+          <li id="categories">
+            <h2>Kategoriak</h2>
+            <ul>
+              <li><a href="#">Oinarriak</a></li>
+              <li><a href="#">Wallet-ak</a></li>
+              <li><a href="#">Segurtasuna</a></li>
+              <li><a href="#">Teknikoa</a></li>
+              <li><a href="#">Hausnarketak</a></li>
+              <li><a href="#">Baliabideak</a></li>
+            </ul>
+          </li>
+          <li id="search">
+            <h2>Bilatu</h2>
+            <form id="searchform" method="get" action="#">
+              <input type="text" name="s" id="s" placeholder="Bilatu hemen...">
+              <input type="submit" value="Bilatu">
+            </form>
+          </li>
+        </ul>
+      </aside>
+
+      <section id="blog">
+        <article class="post">
+          <h2>Bitcoin eta lege zaharra</h2>
+          <p>Blog hau nire Bitcoin ibilbidearen isla da: astez aste ikasten noan guztia hemen biltzen dut, ikasitakoa ordenatzeko eta nire buruari kontsultarako balio didan gune gisa. 
+            Eduki teknikoak, hausnarketak eta baliabide praktikoak jasotzen ditut, ikuspegi pertsonal batetik.</p>
+        </article>
+
+        <article class="post">
+          <h2>📄 Artxiboak</h2>
+          <ul>
+            <li><a href="manifestua.md">manifestua.md</a></li>
+            <li><a href="historia-bitcoin.md">historia-bitcoin.md</a></li>
+            <li><a href="egutegia.md">egutegia.md</a></li>
+            <!-- Gehitu gehiago eskuz -->
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2025 Bitcoin eta lege zaharra</p>
+      <div id="social-links">
+        <a href="#">Nostr</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
